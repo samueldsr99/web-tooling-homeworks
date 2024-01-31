@@ -8,6 +8,10 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": [],
-    "rules": {}
+    "plugins": ["prettier", "simple-import-sort"],
+    "rules": {
+        "prettier/prettier": "warn",
+        "simple-import-sort/exports": "error",
+        "simple-import-sort/imports": "error"
+    }
 }
