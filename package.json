@@ -33,8 +33,10 @@
   },
   "lint-staged": {
     "*.{js,ts,svelte}": [
-      "svelte-check --tsconfig ./tsconfig.json",
-      "prettier --write \"src/**/*.{js,ts,svelte,css,json}\""
+      "svelte-check --tsconfig ./tsconfig.json"
+    ],
+    "*": [
+      "prettier --ignore-unknown --write"
     ]
   }
 }
