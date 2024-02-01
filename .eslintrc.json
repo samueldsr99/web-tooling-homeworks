@@ -10,6 +10,7 @@
     },
     "plugins": ["prettier", "simple-import-sort"],
     "rules": {
+        "@typescript-eslint/triple-slash-reference": "off",
         "prettier/prettier": "warn",
         "simple-import-sort/exports": "error",
         "simple-import-sort/imports": "error"
