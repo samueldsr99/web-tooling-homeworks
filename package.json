@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "format": "prettier --write \"src/**/*.{js,ts,svelte}\"",
+    "format": "prettier --write \"src/**/*.{js,ts,svelte,css,json}\"",
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "check": "svelte-check --tsconfig ./tsconfig.json",
@@ -34,8 +34,7 @@
   "lint-staged": {
     "*.{js,ts,svelte}": [
       "svelte-check --tsconfig ./tsconfig.json",
-      "prettier --write",
-      "git add"
+      "prettier --write \"src/**/*.{js,ts,svelte,css,json}\""
     ]
   }
 }
