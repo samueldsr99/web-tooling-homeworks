@@ -9,6 +9,7 @@
         "sourceType": "module"
     },
     "plugins": ["prettier", "simple-import-sort"],
+    "ignorePatterns": ["svelte.config.js"],
     "rules": {
         "@typescript-eslint/triple-slash-reference": "off",
         "prettier/prettier": "warn",
