@@ -10,9 +10,17 @@
 name: Deploy to Vercel
 
 on:
+    pull_request:
+        branches:
+            - main
     push:
         branches:
             - main
+    workflow_dispatch:
+
+concurrency:
+    group: 'CI/CD'
+    cancel-in-progress: true
 
 jobs:
     deploy:
