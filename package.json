@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{js,ts,svelte,css,json}\"",
-    "lint": "eslint . --ext .ts,.tsx",
+    "lint": "eslint . --max-warnings 0 --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "prepare": "husky install",
