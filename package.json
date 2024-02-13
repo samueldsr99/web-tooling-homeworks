@@ -19,9 +19,6 @@
         "chromatic": "npx chromatic --project-token=chpt_c671efd7e64d5eb"
     },
     "devDependencies": {
-        "@storybook/addon-essentials": "^7.6.14",
-        "@storybook/addon-interactions": "^7.6.14",
-        "@storybook/addon-links": "^7.6.14",
         "@storybook/addon-styling-webpack": "^0.0.6",
         "@storybook/blocks": "^7.6.14",
         "@storybook/svelte": "^7.6.14",
