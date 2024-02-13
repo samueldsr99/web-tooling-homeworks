@@ -1,16 +1,6 @@
 import type { Preview } from '@storybook/svelte'
 import '../src/app.pcss'
 
-const preview: Preview = {
-    parameters: {
-        actions: { argTypesRegex: '^on[A-Z].*' },
-        controls: {
-            matchers: {
-                color: /(background|color)$/i,
-                date: /Date$/i,
-            },
-        },
-    },
-}
+const preview: Preview = {}
 
 export default preview

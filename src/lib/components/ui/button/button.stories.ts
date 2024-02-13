@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/svelte'
 
-import Button from './button.svelte'
+import ButtonView from './buttonview.svelte'
 
 const meta = {
     title: 'UI/Button',
-    component: Button,
+    component: ButtonView,
     argTypes: {
         variant: {
             control: { type: 'select' },
@@ -22,7 +22,7 @@ const meta = {
             options: ['default', 'sm', 'lg', 'icon'],
         },
     },
-} satisfies Meta<Button>
+} satisfies Meta<ButtonView>
 
 export default meta
 type Story = StoryObj<typeof meta>
