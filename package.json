@@ -15,7 +15,8 @@
     "test": "vitest",
     "test:coverage": "vitest --coverage",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_c671efd7e64d5eb"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.14",
@@ -30,6 +31,7 @@
     "@tsconfig/svelte": "^5.0.2",
     "@typescript-eslint/parser": "^6.21.0",
     "@vitest/coverage-v8": "^1.2.2",
+    "chromatic": "^10.9.4",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
