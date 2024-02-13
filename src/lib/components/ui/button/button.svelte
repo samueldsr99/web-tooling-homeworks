@@ -23,5 +23,5 @@
     on:click
     on:keydown
 >
-    <slot /> LOL
+    <slot />
 </ButtonPrimitive.Root>
