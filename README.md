@@ -1,6 +1,6 @@
 # Web tooling assignment - Jokes platform
 
-<div style="display: flex; justify-content: center; padding: 32px">
+<div style="display: flex; justify-content: center; padding: 32px; width: 100%;" align="center">
     <img
         src="./media/troll-face.png"
         alt="Troll face"
