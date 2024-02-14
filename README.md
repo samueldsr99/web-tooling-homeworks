@@ -53,13 +53,9 @@ npm install
 
 ## Usage
 
-To start the project, run the following command:
+### Development
 
-```bash
-npm start
-```
-
-Or if you want to start the project in development mode, run the following command:
+If you want to start the project in development mode, run the following command:
 
 ```bash
 npm run dev
@@ -71,7 +67,7 @@ To start the storybook, run the following command:
 npm run storybook
 ```
 
-## Build for production
+### Build for production
 
 To build the project for production, run the following command:
 
@@ -80,6 +76,12 @@ npm run build
 ```
 
 Output folder is `dist`.
+
+Then you can start the project with the following command:
+
+```bash
+npm start
+```
 
 To build the storybook for production, run the following command:
 
