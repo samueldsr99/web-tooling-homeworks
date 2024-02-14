@@ -30,9 +30,18 @@
   "include": [
     "vite.config.ts",
     "vitest.config.ts",
-    "src/**/*.ts",
-    "src/**/*.js",
-    "src/**/*.svelte"
+    "/**/*.ts",
+    "/**/*.js",
+    "/**/*.svelte"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "cypress",
+    "coverage",
+    "svelte.config.js",
+    "tailwind.config.js"
   ],
   "references": [
     {

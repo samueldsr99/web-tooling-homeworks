@@ -19,9 +19,7 @@
     "prettier",
     "simple-import-sort"
   ],
-  "ignorePatterns": [
-    "svelte.config.js"
-  ],
+  "ignorePatterns": [],
   "overrides": [
     {
       "files": [
