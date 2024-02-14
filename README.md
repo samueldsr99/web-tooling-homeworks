@@ -15,7 +15,7 @@ This project is a simple jokes platform that fetches jokes from the [JokeAPI](ht
 
 [Vercel deploy](https://web-tooling-homeworks.vercel.app/)
 
-[Chromatic](https://main--65cb2fb2416e0358fb454ba1.chromatic.com//)
+[Chromatic](https://main--65cb2fb2416e0358fb454ba1.chromatic.com/)
 
 ## Table of contents
 
