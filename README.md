@@ -2,7 +2,7 @@
 
 This is the repository for the web tooling assignment at Harbour.Space.
 
-This project is a simple jokes platform that fetches jokes from the [JokeAPI](https://api.api-ninjas.com/v1/jokes).
+This project is a simple jokes platform that fetches jokes from the [JokeAPI](https://sv443.net/jokeapi/v2/#filtering).
 
 ## Table of contents
 
@@ -26,16 +26,16 @@ This is a simple web tooling assignment for the Web App From Scratch course at t
 git clone
 ```
 
-2. Install the dependencies
+2. Copy and populate the environment variables
+
+```bash
+cp .env.example .env
+```
+
+3. Install the dependencies
 
 ```bash
 npm install
-```
-
-3. Build the project
-
-```bash
-npm run build
 ```
 
 ## Usage
@@ -43,7 +43,7 @@ npm run build
 To start the project, run the following command:
 
 ```bash
-npm run start
+npm start
 ```
 
 Or if you want to start the project in development mode, run the following command:
@@ -51,6 +51,30 @@ Or if you want to start the project in development mode, run the following comma
 ```bash
 npm run dev
 ```
+
+To start the storybook, run the following command:
+
+```bash
+npm run storybook
+```
+
+## Build for production
+
+To build the project for production, run the following command:
+
+```bash
+npm run build
+```
+
+Output folder is `dist`.
+
+To build the storybook for production, run the following command:
+
+```bash
+npm run build-storybook
+```
+
+Output folder is `storybook-static`.
 
 ## Contributing
 
