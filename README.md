@@ -1,8 +1,21 @@
 # Web tooling assignment - Jokes platform
 
+<div style="display: flex; justify-content: center; padding: 32px">
+    <img
+        src="./media/troll-face.png"
+        alt="Troll face"
+        width="100"
+        height="100"
+    />
+</div>
+
 This is the repository for the web tooling assignment at Harbour.Space.
 
 This project is a simple jokes platform that fetches jokes from the [JokeAPI](https://sv443.net/jokeapi/v2/#filtering).
+
+[Vercel deploy](https://web-tooling-homeworks.vercel.app/)
+
+[Chromatic](https://main--65cb2fb2416e0358fb454ba1.chromatic.com//)
 
 ## Table of contents
 
