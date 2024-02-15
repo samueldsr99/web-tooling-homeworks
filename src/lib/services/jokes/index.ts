@@ -1,9 +1,9 @@
 import jokesInstance from './axios.instance'
 import type { JokesApi } from './types'
 
-export default {
-  get: async ({ limit }) =>
+export default <JokesApi>{
+  get: async ({ category, amount }) =>
     await jokesInstance
-      .get('jokes/', { params: { limit } })
+      .get(`/${category}`, { params: { amount } })
       .then((r) => r.data),
-} satisfies JokesApi
+}

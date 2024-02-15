@@ -1,4 +1,5 @@
-import type { Joke } from '../../models/joke'
+import type { Joke } from '$lib/models/joke'
+
 import type { ServiceFunction } from '../types'
 
 export interface JokesApi {
@@ -6,6 +7,11 @@ export interface JokesApi {
 }
 
 export interface GetJokesRequest {
-  limit?: number
+  category: string
+  amount: number
 }
-export type GetJokesResponse = Joke[]
+export type GetJokesResponse = {
+  error: boolean
+  amount: number
+  jokes: Joke[]
+}
