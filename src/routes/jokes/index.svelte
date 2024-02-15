@@ -1,5 +1,5 @@
 <script lang="ts">
-  import CategoriesTabs from '$lib/components/jokes/categories-tabs.svelte'
+  import CategoriesTabs from '$lib/components/jokes/categories-tabs'
   import { Button } from '$lib/components/ui/button'
   import { useLocation } from 'svelte-routing'
   import api from '$lib/services'
