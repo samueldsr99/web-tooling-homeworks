@@ -1,3 +1,3 @@
 export interface Joke {
-    joke: string
+  joke: string
 }
