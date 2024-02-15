@@ -4,7 +4,7 @@
   import { useLocation } from 'svelte-routing'
   import api from '$lib/services'
   import type { GetJokesResponse } from '$lib/services/jokes/types'
-  import JokeCard from '$lib/components/jokes/joke-card.svelte'
+  import JokeCard from '$lib/components/jokes/joke-card'
 
   let location = useLocation()
 
