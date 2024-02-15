@@ -19,17 +19,17 @@ This project is a simple jokes platform that fetches jokes from the [JokeAPI](ht
 
 ## Table of contents
 
--   [Web tooling assignment](#web-tooling-assignment)
-    -   [Table of contents](#table-of-contents)
-    -   [Introduction](#introduction)
-    -   [Installation](#installation)
-    -   [Usage](#usage)
-    -   [Contributing](#contributing)
-    -   [License](#license)
+- [Web tooling assignment](#web-tooling-assignment)
+  - [Table of contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Introduction
 
-This is a simple web tooling assignment for the Web App From Scratch course at the HvA.
+A jokes website that fetches jokes from the [JokeAPI](https://sv443.net/jokeapi/v2/#filtering). You can get jokes by category.
 
 ## Installation
 
