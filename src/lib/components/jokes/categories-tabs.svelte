@@ -20,7 +20,7 @@
       <Link to="/jokes?category=pun">Pun</Link>
     </Tabs.Trigger>
     <Tabs.Trigger value="christmas">
-      <Link to="/jokes?category=Christmas">Christmas</Link>
+      <Link to="/jokes?category=christmas">Christmas</Link>
     </Tabs.Trigger>
   </Tabs.List>
   <Tabs.Content value="account">
