@@ -12,10 +12,10 @@ const config = {
         '2xl': '1400px',
       },
     },
-    maxWidth: {
-      '8xl': '1280px',
-    },
     extend: {
+      maxWidth: {
+        '8xl': '1280px',
+      },
       colors: {
         border: 'hsl(var(--border) / <alpha-value>)',
         input: 'hsl(var(--input) / <alpha-value>)',
